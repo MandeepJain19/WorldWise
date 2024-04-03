@@ -1,0 +1,56 @@
+.login {
+  margin: 2.5rem;
+  padding: 2.5rem 5rem;
+  background-color: var(--color-dark--1);
+  min-height: calc(100vh - 5rem);
+}
+
+.form {
+  background-color: var(--color-dark--2);
+  border-radius: 7px;
+  padding: 2rem 3rem;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+  /* Different from other form */
+  width: 48rem;
+  margin: 8rem auto;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.btn {
+  text-align: end;
+}
+.lastText {
+  text-align: center;
+  font-size: 1.4rem;
+  letter-spacing: 1.6px;
+}
+
+.lastText a {
+  color: var(--color-brand--2);
+  text-decoration: none;
+}
+.err {
+  background-color: rgb(249, 234, 234);
+  color: rgb(254, 5, 5);
+  padding: 6px 4px;
+  font-size: 1.4rem;
+}
+@media (max-width: 60em) {
+  .login {
+    margin: 0;
+    padding: 2rem;
+    min-height: 100vh;
+  }
+  .product section {
+    width: clamp(30rem, 80%, 60rem);
+    grid-template-columns: 1fr;
+  }
+}

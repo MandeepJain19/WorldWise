@@ -1,0 +1,3 @@
+users need to be mapped with cities then render cities acc to logged in user
+test geoloaction in another laptop
+remove console.log (only MAP.jsz rem)
